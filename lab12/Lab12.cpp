@@ -1,3 +1,7 @@
+/* Zach Boulom
+   8/28/17
+   ASCII Art Of A Chicken
+*/
 
 #include <iostream>
 using namespace std;
