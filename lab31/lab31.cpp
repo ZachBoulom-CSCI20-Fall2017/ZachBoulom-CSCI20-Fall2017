@@ -173,5 +173,5 @@ int main(){
     }
     
     //prints plan
-    cout << plan_four << endl;
+    cout << endl << plan_four << endl;
 }
