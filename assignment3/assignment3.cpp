@@ -129,3 +129,162 @@ int main(){
     }
     
 }
+
+/*
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 8
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 1
+Computer's turn
+Computer rolled a 1
+Computer has 0 points
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 6
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 1
+Computer's turn
+Computer rolled a 1
+Computer has 0 points
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 8
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 5
+Potential points at 18
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 6
+Potential points at 30
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 1
+Computer's turn
+Computer rolled a 1
+Computer has 0 points
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 6
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 14
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 1
+Computer's turn
+Computer rolled a 1
+Computer has 0 points
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 8
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 1
+Computer's turn
+Computer rolled a 1
+Computer has 0 points
+Your total score is 0
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 5
+Potential points at 10
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 5
+Potential points at 20
+Press 'r' to roll or 'h' to hold
+h
+Computer's turn
+Computer rolled a 5
+Computer has 25 points
+Your total score is 20
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 8
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 14
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 20
+Press 'r' to roll or 'h' to hold
+h
+Computer's turn
+Computer rolled a 6
+Computer has 51 points
+Your total score is 40
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 8
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 4
+Potential points at 16
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 5
+Potential points at 26
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 6
+Potential points at 38
+Press 'r' to roll or 'h' to hold
+Computer's turn
+Computer rolled a 1
+Computer has 51 points
+Your total score is 78
+Potential points at 0
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 2
+Potential points at 4
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 10
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 16
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 22
+Press 'r' to roll or 'h' to hold
+r
+You rolled a 3
+Potential points at 28
+Press 'r' to roll or 'h' to hold
+h
+Computer's turn
+Computer rolled a 2
+Computer has 81 points
+congrats, you win!
+*/
