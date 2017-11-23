@@ -59,20 +59,14 @@ void StudentInfo::PrintResults(){
     cout << first_name_ << " " << last_name_ << endl;
     cout << "Score: " << grade_ << endl;
     
-    outFS << "Test Results" << endl;
-    outFS << first_name_ << " " << last_name_ << endl;
-    outFS << "Score: " << grade_ << endl;
-    
     if(missed_[0] != 0){
         cout << "Missed Questions: " << endl;
         for (int i=0; missed_[i] != 0 && i < 21; i++){
             if(missed_[i+1] != 0){
                 cout << missed_[i] << ", ";
-                outFS << missed_[i] << ", ";
             }
             else{
                 cout << missed_[i] << endl;
-                outFS << missed_[i] << endl;
             }
         }
     }
@@ -92,17 +86,10 @@ int main(){
    string answer_sheet[questions];
    
    ifstream inFS;
-   ofstream outFS;
+   
 
     //loads answer key   
    inFS.open("answerkey.txt");
-   outFS.open("studentresults.txt");
-   
-   if(!outFS.is_open()){
-       cout << "student results not found" << endl;
-       
-       return 1;
-   }
    
    if (!inFS.is_open()){
        cout << "answer key not found" << endl;
@@ -128,30 +115,32 @@ int main(){
             return 1;
         }
         
-        for (int z=0; z<students+1; z++){
-            for (int i=0; i<questions+1; i++){
-                if (i<1){
+        for (int z = 0; z < students + 1; z++) {
+            
+            for(int i = 0; i < questions + 1; i++){
+                
+                if(i < 1){
                     inFS >> names[0];
                     inFS >> names[1];
-                }
+                } 
                 else {
-                    inFS >> student_answer[i-1];
+                    inFS >> student_answer[i - 1];
                 }
             }
                 
             //grades papers
-            for (int i=0; i<questions; i++){
-                if (student_answer[i] == answer_sheet[i]){
-                    points = points + 1;
-                }
-                else if (student_answer[i] == "?"){
-                    wrong_answers++;
-                    student[z].WrongAnswers(i+1, wrong_answers);
-                }
-                else {
-                    points = points - 0.25;
-                    wrong_answers++;
-                    student[z].WrongAnswers(i+1, wrong_answers);
+            for(int i = 0; i < questions; i++){
+                if(student_answer[i] == answer_sheet[i]){
+                points += 1;
+            } 
+            else if(student_answer[i] == "?"){
+                wrong_answers++;
+                student[z].WrongAnswers(i + 1, wrong_answers);
+            } 
+            else {
+                points -= 0.25;
+                wrong_answers++;
+                student[z].WrongAnswers(i + 1, wrong_answers);
                 }
             }
 
@@ -159,12 +148,12 @@ int main(){
             student[z].SetNames(names[0], names[1]);
             student[z].SetScores(points);
             student[z].PrintResults();
-            cout << endl << endl;
+            cout << endl;
         }
         
         
         inFS.close();
-        outFS.close();
+        
 
    }
 }
